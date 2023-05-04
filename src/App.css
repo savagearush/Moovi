@@ -1,0 +1,16 @@
+.main__container {
+  display: flex;
+  justify-content: center;
+}
+
+.movie_container {
+  width: 90%;
+}
+
+.screen2 {
+  display: flex;
+  width: 100%;
+  color: white;
+  margin: 20px;
+  background-color: rgba(33, 42, 62, 0.4);
+}

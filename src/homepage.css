@@ -1,0 +1,24 @@
+
+.movies {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  position: relative;
+  background-color: rgba(33, 42, 62, 0.4) !important;
+  color: white;
+  -webkit-box-shadow: 10px 0px 130px -55px rgba(8, 0, 150, 1);
+  -moz-box-shadow: 10px 0px 130px -55px rgba(8, 0, 150, 1);
+  box-shadow: 10px 0px 130px -55px rgba(8, 0, 150, 1);
+}
+
+.card-img-top {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: top;
+}

@@ -1,0 +1,80 @@
+.left,
+.right {
+  flex: 1;
+  position: relative;
+}
+
+.left-img {
+  height: 700px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.back-btn {
+  position: absolute;
+  border: none;
+  top: 20px;
+  left: 20px;
+  background-color: cadetblue;
+  padding: 5px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 500ms;
+  text-decoration: none;
+  color: white;
+}
+.back-btn:hover {
+  position: absolute;
+  border: none;
+  top: 20px;
+  left: 20px;
+  background-color: cadetblue;
+  padding: 5px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+
+  box-shadow: 1px -2px 18px 0px rgba(0, 204, 222, 0.5);
+}
+
+.movie-title {
+  font: bold 60px Verdana;
+  margin: 20px;
+}
+
+.right h6 {
+  padding: 10px 0px;
+}
+
+.movie-summary {
+  margin: 5px;
+  margin-inline: auto;
+  text-align: justify;
+  width: 90%;
+}
+
+.book-btn {
+  border: none;
+  color: white;
+  font: bold 20px verdana;
+  position: absolute;
+  padding: 10px 20px;
+  width: 100%;
+  background-color: cadetblue;
+  bottom: 0;
+  left: 0;
+  transition: all 500ms;
+}
+
+.book-btn:hover {
+  color: white;
+  font: bold 20px verdana;
+  border: none;
+  position: absolute;
+  padding: 10px 20px;
+  width: 100%;
+  background-color: cadetblue;
+  bottom: 0;
+  left: 0;
+  box-shadow: 1px -2px 18px 0px rgba(0, 204, 222, 0.3);
+}
