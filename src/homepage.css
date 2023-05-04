@@ -1,5 +1,9 @@
-
+.logo {
+  font: bold 4vw verdana;
+  text-shadow: 4px 4px 23px rgba(39, 29, 255, 1);
+}
 .movies {
+  margin-top: 50px;
   display: flex;
   flex-direction: row;
   gap: 30px;
